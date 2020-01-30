@@ -68,7 +68,7 @@ df.columns = names
 # Closing the connection to the database file
 conn.close()
 
-""" # EXCESS CODE BELOW
+""" # GRAPHING CODE BELOW
 ### GRAPH SHAPE OF REVIEWS BY COUNTRY
 df_rev_country = df[['title_id', 'region', 'rating', 'votes']]
 
